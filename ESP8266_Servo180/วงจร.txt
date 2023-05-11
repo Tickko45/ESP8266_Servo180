@@ -1,0 +1,8 @@
+Servo
+Black = GND
+Red = VCC
+Yellow = OUT
+
+VCC -> 3V - 5V
+GND -> GND
+OUT -> D4
