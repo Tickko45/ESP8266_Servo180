@@ -5,7 +5,8 @@ Servo servo;
 void setup() {
   
     Serial.begin(115200);
-    servo.attach(2);  // D4
+//  servo.attach(5);  // D1
+    servo.attach(D1);  // D1 ใช้แบบไหนก็ได้ในการระบุขา
     Serial.println("SERVO READY");
     delay(2000);
 
